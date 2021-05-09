@@ -1,0 +1,56 @@
+2021-04-02 05:13:30.464 [main] INFO  Logic.LogicalAgent - Dingram started
+2021-04-02 05:13:30.466 [main] INFO  Logic.LogicalAgent - static lists initialized
+2021-04-02 05:13:30.472 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:13:48.965 [main] INFO  Logic.LogicalAgent - 01-amirahmad
+2021-04-02 05:13:48.976 [main] INFO  SaverLoader.DataAgent - user loaded successfully
+2021-04-02 05:13:55.007 [main] INFO  Logic.LogicalAgent - 02-dksf
+2021-04-02 05:14:02.072 [main] INFO  Logic.LogicalAgent - 03-gurbe
+2021-04-02 05:14:02.076 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:14:07.124 [main] INFO  Logic.LogicalAgent - personal
+2021-04-02 05:14:07.124 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:14:10.153 [main] INFO  Logic.LogicalAgent - tweets
+2021-04-02 05:14:10.153 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:14:12.173 [main] INFO  Logic.LogicalAgent - show
+2021-04-02 05:14:12.174 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:14:12.176 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:14:38.410 [main] INFO  Logic.LogicalAgent - back
+2021-04-02 05:14:38.414 [main] INFO  SaverLoader.DataAgent - user0 saved successfully
+2021-04-02 05:14:38.417 [main] INFO  Logic.LogicalAgent - static fields updated
+2021-04-02 05:14:38.417 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:15:08.617 [main] INFO  Logic.LogicalAgent - write-this is the third/nmessage ortweet or so to be ever written in this/n ok?
+2021-04-02 05:15:08.935 [main] INFO  SaverLoader.DataAgent - tweet files created successfully
+2021-04-02 05:15:08.937 [main] INFO  SaverLoader.DataAgent - user4 saved successfully
+2021-04-02 05:15:08.939 [main] INFO  Logic.LogicalAgent - static fields updated
+2021-04-02 05:15:08.941 [main] INFO  SaverLoader.DataAgent - user0 saved successfully
+2021-04-02 05:15:08.943 [main] INFO  Logic.LogicalAgent - static fields updated
+2021-04-02 05:15:13.659 [main] INFO  Logic.LogicalAgent - tweets
+2021-04-02 05:15:13.659 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:15:15.672 [main] INFO  Logic.LogicalAgent - show
+2021-04-02 05:15:15.680 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:15:15.681 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:15:15.682 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:15:34.814 [main] INFO  Logic.LogicalAgent - next
+2021-04-02 05:15:37.840 [main] INFO  Logic.LogicalAgent - prev
+2021-04-02 05:15:37.841 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:15:37.842 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:15:37.843 [main] INFO  SaverLoader.DataAgent - page loaded successfully
+2021-04-02 05:15:44.917 [main] INFO  Logic.LogicalAgent - inst
+2021-04-02 05:15:47.953 [main] INFO  Logic.LogicalAgent - back
+2021-04-02 05:15:47.956 [main] INFO  SaverLoader.DataAgent - user0 saved successfully
+2021-04-02 05:15:47.959 [main] INFO  Logic.LogicalAgent - static fields updated
+2021-04-02 05:15:47.959 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:16:02.063 [main] INFO  Logic.LogicalAgent - back
+2021-04-02 05:16:02.063 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:16:05.100 [main] INFO  Logic.LogicalAgent - exit
+2021-04-02 05:16:05.100 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:16:21.277 [main] INFO  Logic.LogicalAgent - 01-amirahmad
+2021-04-02 05:16:21.285 [main] INFO  SaverLoader.DataAgent - user loaded successfully
+2021-04-02 05:16:29.360 [main] INFO  Logic.LogicalAgent - 02-password1
+2021-04-02 05:16:29.361 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:16:36.450 [main] INFO  Logic.LogicalAgent - settings
+2021-04-02 05:16:36.450 [main] INFO  Logic.LogicalAgent - user entered a new page
+2021-04-02 05:16:40.498 [main] INFO  Logic.LogicalAgent - out
+2021-04-02 05:16:40.500 [main] INFO  SaverLoader.DataAgent - user0 saved successfully
+2021-04-02 05:16:40.503 [main] INFO  Logic.LogicalAgent - static fields updated
+2021-04-02 05:16:40.506 [main] INFO  Logic.LogicalAgent - static fields updated
+2021-04-02 05:16:40.506 [main] INFO  Logic.LogicalAgent - program ends

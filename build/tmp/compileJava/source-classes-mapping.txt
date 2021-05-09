@@ -1,0 +1,47 @@
+Models/Page/SignInPage.java
+ Models.Page.SignInPage
+Models/Page/SignUpPage.java
+ Models.Page.SignUpPage
+Models/Page/ChatsPage.java
+ Models.Page.ChatsPage
+main.java
+ main
+Models/Massage/Comment.java
+ Models.Massage.Comment
+Models/Page/SavedMessages.java
+ Models.Page.SavedMessages
+Models/Page/MainPage.java
+ Models.Page.MainPage
+Models/Massage/Tweet.java
+ Models.Massage.Tweet
+Logic/LogicalAgent.java
+ Logic.LogicalAgent
+Models/Page/LogPage.java
+ Models.Page.LogPage
+Models/Page/PersonalPage.java
+ Models.Page.Edit
+ Models.Page.Lists
+ Models.Page.Notifications
+ Models.Page.PersonalPage
+Models/Page/ExplorePage.java
+ Models.Page.ExplorePage
+SaverLoader/DataAgent.java
+ SaverLoader.DataAgent
+Models/Page/Page.java
+ Models.Page.Page
+Models/User.java
+ Models.User
+ Models.User$UserBuilder
+Models/Massage/PVMassage.java
+ Models.Massage.PVMassage
+Models/Page/Settings.java
+ Models.Page.Settings
+ Models.Page.Settings$PrivacyPage
+Models/Massage/Massage.java
+ Models.Massage.Massage
+Models/Page/ChatPage.java
+ Models.Page.ChatPage
+Models/Page/TimeLine.java
+ Models.Page.TimeLine
+Models/Page/Tweets.java
+ Models.Page.Tweets

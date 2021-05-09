@@ -1,0 +1,68 @@
+{
+  "commentList": [],
+  "Id": 4,
+  "user": {
+    "Id": 0,
+    "username": "amirahmad",
+    "name": "Amir",
+    "familyName": "Shafiee",
+    "phoneNumber": "09132877654",
+    "birthDay": "Dec 27, 3902",
+    "password": "password1",
+    "email": "sdfk@ksdf.com",
+    "identityName": "Eroane",
+    "bio": "gurbe",
+    "lastSeenType": 3,
+    "verificationQuestion": "gurbe",
+    "privacy": true,
+    "active": true,
+    "localDate": {
+      "year": 2021,
+      "month": 4,
+      "day": 2
+    },
+    "tweets": [
+      2,
+      3
+    ],
+    "comments": [],
+    "following": [],
+    "followers": [],
+    "blackList": [],
+    "notifications": [],
+    "savedMessages": [
+      1
+    ],
+    "chatsPages": [],
+    "unreadChats": [],
+    "chatsPagesByName": [],
+    "lastSeenTime": {
+      "date": {
+        "year": 2021,
+        "month": 4,
+        "day": 2
+      },
+      "time": {
+        "hour": 4,
+        "minute": 6,
+        "second": 38,
+        "nano": 226966500
+      }
+    }
+  },
+  "userId": 0,
+  "written": "this is the third\nmessage ortweet or so to be ever written in this\n ok?\n",
+  "localDateTime": {
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 2
+    },
+    "time": {
+      "hour": 5,
+      "minute": 15,
+      "second": 8,
+      "nano": 621494900
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "seen": false,
+  "Id": 1,
+  "user": {
+    "Id": 0,
+    "username": "amirahmad",
+    "name": "Amir",
+    "familyName": "Shafiee",
+    "phoneNumber": "09132877654",
+    "birthDay": "Dec 27, 3902",
+    "password": "password1",
+    "email": "sdfk@ksdf.com",
+    "identityName": "Eroane",
+    "bio": "gurbe",
+    "lastSeenType": 3,
+    "verificationQuestion": "gurbe",
+    "privacy": true,
+    "active": true,
+    "localDate": {
+      "year": 2021,
+      "month": 4,
+      "day": 2
+    },
+    "tweets": [],
+    "comments": [],
+    "following": [],
+    "followers": [],
+    "blackList": [],
+    "notifications": [],
+    "savedMessages": [],
+    "chatsPages": [],
+    "unreadChats": [],
+    "chatsPagesByName": []
+  },
+  "userId": 0,
+  "written": "first",
+  "localDateTime": {
+    "date": {
+      "year": 2021,
+      "month": 4,
+      "day": 2
+    },
+    "time": {
+      "hour": 3,
+      "minute": 40,
+      "second": 10,
+      "nano": 178586200
+    }
+  }
+}
