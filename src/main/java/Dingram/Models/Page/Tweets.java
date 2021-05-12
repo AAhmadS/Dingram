@@ -1,9 +1,8 @@
-package Models.Page;
+package Dingram.Models.Page;
 
-import Logic.LogicalAgent;
-import Models.Massage.Massage;
-import Models.Massage.Tweet;
-import Models.User;
+import Dingram.Logic.LogicalAgent;
+import Dingram.Models.Massage.Tweet;
+import Dingram.Models.User;
 
 class Tweets extends Page{
     private boolean shown=false;

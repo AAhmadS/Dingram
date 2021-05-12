@@ -1,7 +1,7 @@
-package Models.Page;
+package Dingram.Models.Page;
 
-import Logic.LogicalAgent;
-import Models.User;
+import Dingram.Logic.LogicalAgent;
+import Dingram.Models.User;
 
 public class MainPage extends Page{
     public MainPage(User user, Page previousPage, LogicalAgent logical){

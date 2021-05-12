@@ -1,4 +1,6 @@
-import Logic.LogicalAgent;
+package Dingram;
+
+import Dingram.Logic.LogicalAgent;
 
 import java.io.IOException;
 

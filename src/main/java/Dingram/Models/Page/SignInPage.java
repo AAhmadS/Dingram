@@ -1,7 +1,7 @@
-package Models.Page;
+package Dingram.Models.Page;
 
-import Logic.LogicalAgent;
-import Models.User;
+import Dingram.Logic.LogicalAgent;
+import Dingram.Models.User;
 
 public class SignInPage extends LogPage {
     private User potentialUser;

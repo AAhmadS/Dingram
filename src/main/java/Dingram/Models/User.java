@@ -1,4 +1,4 @@
-package Models;
+package Dingram.Models;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

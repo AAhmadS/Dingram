@@ -1,9 +1,9 @@
-package Models.Page;
+package Dingram.Models.Page;
 
-import Logic.LogicalAgent;
-import Models.Massage.Comment;
-import Models.Massage.Tweet;
-import Models.User;
+import Dingram.Logic.LogicalAgent;
+import Dingram.Models.Massage.Comment;
+import Dingram.Models.Massage.Tweet;
+import Dingram.Models.User;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -20,7 +20,7 @@ public class TimeLine extends Page {
         name="Time line" +
                 "\n------------";
         instructions= "INSTRUCTIONS :\n" +
-                      "back to main page or tweet from comments list : back\n" +
+                      "back to Dingram.main page or tweet from comments list : back\n" +
                       "show tweets                                   : show\n" +
                       "next or previous tweet                        : next, prev\n" +
                       "like or dislike tweet                         : like , dislike\n" +

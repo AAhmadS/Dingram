@@ -1,12 +1,11 @@
-package SaverLoader;
+package Dingram.SaverLoader;
 
-import Logic.LogicalAgent;
-import Models.Massage.Comment;
-import Models.Massage.Massage;
-import Models.Massage.PVMassage;
-import Models.Massage.Tweet;
-import Models.Page.ChatPage;
-import Models.User;
+import Dingram.Models.Massage.Comment;
+import Dingram.Models.Massage.Massage;
+import Dingram.Models.Massage.PVMassage;
+import Dingram.Models.Massage.Tweet;
+import Dingram.Models.Page.ChatPage;
+import Dingram.Models.User;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import org.apache.logging.log4j.LogManager;
@@ -18,10 +17,10 @@ import java.util.HashMap;
 import java.util.List;
 
 public class DataAgent {
-    private static final String DEFAULT_IN_ADDRESS="./src/main/resources/Dingram/Initialize";
-    private static final String DEFAULT_USER_ADDRESS = "./src/main/resources/Dingram/User";
-    private static final String DEFAULT_PAGE_ADDRESS = "./src/main/resources/Dingram/Pages";
-    private static final String DEFAULT_MESSAGE_ADDRESS = "./src/main/resources/Dingram/Message";
+    private static final String DEFAULT_IN_ADDRESS="./src/Dingram.main/resources/Dingram/Initialize";
+    private static final String DEFAULT_USER_ADDRESS = "./src/Dingram.main/resources/Dingram/User";
+    private static final String DEFAULT_PAGE_ADDRESS = "./src/Dingram.main/resources/Dingram/Pages";
+    private static final String DEFAULT_MESSAGE_ADDRESS = "./src/Dingram.main/resources/Dingram/Message";
     private final File passwords,usernames,IdNames,emails,phones,userIDs,tweetsId,messageId,pvId,CommentId,chatPageId;
     public static final Logger logger= LogManager.getLogger(DataAgent.class);
 
@@ -65,8 +64,8 @@ public class DataAgent {
     }
 
     public ChatPage loadPage(Long id) {
-       // File main=new File(DEFAULT_PAGE_ADDRESS+"/"+id);
-        File pageFile=new File(DEFAULT_PAGE_ADDRESS+"/"+id+"\\main"+".txt");
+       // File Dingram.main=new File(DEFAULT_PAGE_ADDRESS+"/"+id);
+        File pageFile=new File(DEFAULT_PAGE_ADDRESS+"/"+id+"\\Dingram.main"+".txt");
         if (!pageFile.exists()){ return null; }
         ChatPage chatPage=null;
         try {
@@ -79,8 +78,8 @@ public class DataAgent {
         return chatPage;
     }
     public User loadUser(Long id){
-        //File main=new File(DEFAULT_USER_ADDRESS+"/"+id);
-        File userFile=new File(DEFAULT_USER_ADDRESS+"/"+id+"\\main"+".txt");
+        //File Dingram.main=new File(DEFAULT_USER_ADDRESS+"/"+id);
+        File userFile=new File(DEFAULT_USER_ADDRESS+"/"+id+"\\Dingram.main"+".txt");
         File userNote=new File(DEFAULT_USER_ADDRESS+"/"+id+"\\note"+".txt");
         if (!userFile.exists()){ return null; }
         User user= null;
@@ -110,11 +109,11 @@ public class DataAgent {
         return null;
     }
     public Tweet loadTweet(Long id) {
-        //File main=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+id);
+        //File Dingram.main=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+id);
         if (Comment.commentsList.contains(id)){
             return loadComment(id);
         }
-        File tweetFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+id+"\\main"+".txt");
+        File tweetFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+id+"\\Dingram.main"+".txt");
         if (!tweetFile.exists()){ return null; }
         Tweet tweet=null;
         try {
@@ -127,8 +126,8 @@ public class DataAgent {
         return tweet;
     }
     public Comment loadComment(Long id){
-        //File main=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+id);
-        File commentFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+id+"\\main"+".txt");
+        //File Dingram.main=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+id);
+        File commentFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+id+"\\Dingram.main"+".txt");
         if (!commentFile.exists()){ return null; }
         Comment comment=null;
         try {
@@ -141,8 +140,8 @@ public class DataAgent {
         return comment;
     }
     public PVMassage loadPVMassage(Long id){
-        //File main=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+id);
-        File messageFile=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+id+"\\main"+".txt");
+        //File Dingram.main=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+id);
+        File messageFile=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+id+"\\Dingram.main"+".txt");
         if (!messageFile.exists()){ return null; }
         PVMassage pvMassage=null;
         try {
@@ -157,7 +156,7 @@ public class DataAgent {
 
     public void saveUser(User user){
         File main=new File(DEFAULT_USER_ADDRESS+"/"+user.getID());
-        File userFile=new File(DEFAULT_USER_ADDRESS+"/"+user.getID()+"\\main"+".txt");
+        File userFile=new File(DEFAULT_USER_ADDRESS+"/"+user.getID()+"\\Dingram.main"+".txt");
         File userNote=new File(DEFAULT_USER_ADDRESS+"/"+user.getID()+"\\note"+".txt");
         String userS= gson.toJson(user);
         String userNotification=gson.toJson(user.getNotifications());
@@ -192,7 +191,7 @@ public class DataAgent {
     }
     public void savePage(ChatPage page){
         File main=new File(DEFAULT_PAGE_ADDRESS+"/"+page.getID());
-        File pageFile=new File(DEFAULT_PAGE_ADDRESS+"/"+page.getID()+"\\main"+".txt");
+        File pageFile=new File(DEFAULT_PAGE_ADDRESS+"/"+page.getID()+"\\Dingram.main"+".txt");
         String pageS= gson.toJson(page);
         if (!main.exists()){
             main.mkdirs();
@@ -232,7 +231,7 @@ public class DataAgent {
     }
     public void savePV(PVMassage pvMassage){
         File main=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+pvMassage.getID());
-        File pvMessageFile=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+pvMassage.getID()+"\\main"+".txt");
+        File pvMessageFile=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+pvMassage.getID()+"\\Dingram.main"+".txt");
         String messageS= gson.toJson(pvMassage);
         if (!main.exists()){
             main.mkdirs();
@@ -263,7 +262,7 @@ public class DataAgent {
             return;
         }
         File main=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+tweet.getID());
-        File tweetFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+tweet.getID()+"\\main"+".txt");
+        File tweetFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+tweet.getID()+"\\Dingram.main"+".txt");
         String tweetS= gson.toJson(tweet);
         if (!main.exists()){
             main.mkdirs();
@@ -291,7 +290,7 @@ public class DataAgent {
     }
     public void saveComment(Comment comment){
         File main=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+comment.getID());
-        File commentFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+comment.getID()+"\\main"+".txt");
+        File commentFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+comment.getID()+"\\Dingram.main"+".txt");
         String tweetS= gson.toJson(comment);
         if (!main.exists()){
             main.mkdirs();
@@ -319,14 +318,14 @@ public class DataAgent {
     }
 
     public void deleteUser(User user){
-        File userFile=new File(DEFAULT_USER_ADDRESS+"/"+user.getID()+"\\main"+".txt");
+        File userFile=new File(DEFAULT_USER_ADDRESS+"/"+user.getID()+"\\Dingram.main"+".txt");
         File userNote=new File(DEFAULT_USER_ADDRESS+"/"+user.getID()+"\\note"+".txt");
         userFile.delete();
         userNote.delete();
         logger.info("user :"+user.getID()+"deleted");
     }
     public void deletePage(Long id) {
-        File pageFile=new File(DEFAULT_PAGE_ADDRESS+"/"+id+"\\main"+".txt");
+        File pageFile=new File(DEFAULT_PAGE_ADDRESS+"/"+id+"\\Dingram.main"+".txt");
         pageFile.delete();
         logger.info("chat page :"+id+"deleted");
     }
@@ -344,17 +343,17 @@ public class DataAgent {
         }
     }
     public void deleteTweet(Long id){
-        File tweetFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+id+"\\main"+".txt");
+        File tweetFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Tweets/"+id+"\\Dingram.main"+".txt");
         tweetFile.delete();
         logger.info("tweet :"+id+"deleted");
     }
     public void deleteComment(Long id){
-        File commentFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+id+"\\main"+".txt");
+        File commentFile=new File(DEFAULT_MESSAGE_ADDRESS+"/Comment/"+id+"\\Dingram.main"+".txt");
         commentFile.delete();
         logger.info("comment :"+id+"deleted");
     }
     public void deletePV(Long id){
-        File pvMessageFile=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+id+"\\main"+".txt");
+        File pvMessageFile=new File(DEFAULT_MESSAGE_ADDRESS+"/PVMessage/"+id+"\\Dingram.main"+".txt");
         pvMessageFile.delete();
         logger.info("pv message :"+id+"deleted");
     }

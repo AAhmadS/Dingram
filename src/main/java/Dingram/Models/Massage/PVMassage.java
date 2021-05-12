@@ -1,6 +1,6 @@
-package Models.Massage;
+package Dingram.Models.Massage;
 
-import Models.User;
+import Dingram.Models.User;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

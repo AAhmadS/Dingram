@@ -1,9 +1,9 @@
-package Models.Page;
+package Dingram.Models.Page;
 
-import Logic.LogicalAgent;
-import Models.Massage.Massage;
-import Models.Massage.PVMassage;
-import Models.User;
+import Dingram.Logic.LogicalAgent;
+import Dingram.Models.Massage.Massage;
+import Dingram.Models.Massage.PVMassage;
+import Dingram.Models.User;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;

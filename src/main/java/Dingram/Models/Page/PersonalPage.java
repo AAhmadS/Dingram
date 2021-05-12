@@ -1,8 +1,8 @@
-package Models.Page;
+package Dingram.Models.Page;
 
-import Logic.LogicalAgent;
-import Models.Massage.Tweet;
-import Models.User;
+import Dingram.Logic.LogicalAgent;
+import Dingram.Models.Massage.Tweet;
+import Dingram.Models.User;
 
 import java.time.LocalDateTime;
 
@@ -20,7 +20,7 @@ public class PersonalPage extends Page{
         name="personal page" +
                 "\n------------";
         instructions= "INSTRUCTIONS : \n" +
-                      "back to main page                    : back\n" +
+                      "back to Dingram.main page                    : back\n" +
                       "tweets and comments                  : tweets\n" +
                       "change personal information          : edit\n" +
                       "write a tweet                        : write-your text    (if you need write in next line, write : /n)\n" +

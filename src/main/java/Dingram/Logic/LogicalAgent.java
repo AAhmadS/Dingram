@@ -1,12 +1,12 @@
-package Logic;
+package Dingram.Logic;
 
-import Models.Massage.Massage;
-import Models.Massage.Tweet;
-import Models.Page.ChatPage;
-import Models.Page.Page;
-import Models.Page.SignInPage;
-import Models.User;
-import SaverLoader.DataAgent;
+import Dingram.Models.Massage.Massage;
+import Dingram.Models.Massage.Tweet;
+import Dingram.Models.Page.ChatPage;
+import Dingram.Models.Page.Page;
+import Dingram.Models.Page.SignInPage;
+import Dingram.Models.User;
+import Dingram.SaverLoader.DataAgent;
 
 import java.io.IOException;
 import java.util.Scanner;
