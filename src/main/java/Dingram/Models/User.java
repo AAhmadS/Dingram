@@ -420,5 +420,4 @@ public class User {
         this.unreadChats = unreadChats;
     }
 
-
 }

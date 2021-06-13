@@ -1,2 +1,4 @@
-package org.openjfx;public class EditController {
+package org.openjfx;
+
+public class EditController {
 }

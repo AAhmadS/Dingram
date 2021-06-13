@@ -13,14 +13,15 @@ public class MainPage extends Page{
         Pages.add(new TimeLine(user, this,logical));
         name="Main Page" +
                 "\n------------";
-        instructions= "INSTRUCTIONS :\n" +
-                      "exit          : exit\n" +
-                      "Settings      : settings\n" +
-                      "explore page  : explore\n" +
-                      "Personal page : personal\n" +
-                      "chat pages    : chats\n" +
-                      "timeline      : timeline\n" +
-                      "instructions  : inst";
+        instructions= """
+                INSTRUCTIONS :
+                exit          : exit
+                Settings      : settings
+                explore page  : explore
+                Personal page : personal
+                chat pages    : chats
+                timeline      : timeline
+                instructions  : inst""";
     }
     @Override
     public Page load(String string) {

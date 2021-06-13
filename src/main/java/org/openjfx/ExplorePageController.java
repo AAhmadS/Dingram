@@ -1,2 +1,4 @@
-package org.openjfx;public class ExplorePageController {
+package org.openjfx;
+
+public class ExplorePageController {
 }

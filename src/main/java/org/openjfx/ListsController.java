@@ -1,2 +1,4 @@
-package org.openjfx;public class ListsController {
+package org.openjfx;
+
+public class ListsController {
 }

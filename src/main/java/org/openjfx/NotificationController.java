@@ -1,2 +1,4 @@
-package org.openjfx;public class NotificationController {
+package org.openjfx;
+
+public class NotificationController {
 }

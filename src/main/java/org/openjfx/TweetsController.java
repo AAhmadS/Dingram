@@ -1,2 +1,4 @@
-package org.openjfx;public class TweetsController {
+package org.openjfx;
+
+public class TweetsController {
 }

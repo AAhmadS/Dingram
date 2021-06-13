@@ -1,2 +1,4 @@
-package org.openjfx;public class ChatsController {
+package org.openjfx;
+
+public class ChatsController {
 }

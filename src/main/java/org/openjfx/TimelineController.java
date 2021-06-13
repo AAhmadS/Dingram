@@ -1,2 +1,4 @@
-package org.openjfx;public class TimelineController {
+package org.openjfx;
+
+public class TimelineController {
 }

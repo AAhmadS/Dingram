@@ -1,2 +1,4 @@
-package org.openjfx;public class SavedMessagesController {
+package org.openjfx;
+
+public class SavedMessagesController {
 }

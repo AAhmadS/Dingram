@@ -1,2 +1,4 @@
-package org.openjfx;public class SettingsController {
+package org.openjfx;
+
+public class SettingsController {
 }

@@ -19,24 +19,25 @@ public class SignUpPage extends LogPage {
         userBuilder=new User.UserBuilder();
         name="Sign Up Page"+
                 "\n------------";
-        instructions= "INSTRUCTIONS :\n" +
-                      "for returning to signInPage enter                    : 00-sign\n" +
-                      "for entering username, write down                    : 01-your text\n" +
-                      "for entering password, write down                    : 02-your text\n" +
-                      "for entering name, write down                        : 03-your text\n" +
-                      "for entering familyname, write down                  : 04-your text\n" +
-                      "for entering IdName, write down                      : 05-your text\n" +
-                      "for entering secret info, write down                 : 06-your text\n" +
-                      "for entering birthday, write down                    : 07-day/month/year\n" +
-                      "for entering bio, write down                         : 08-your text\n" +
-                      "for creating account, write down                     : 09-account\n" +
-                      "for getting a report write down                      : 10-report\n" +
-                      "for entering email, write down                       : 11-your text\n" +
-                      "for entering phone number, write down                : 12-your text\n" +
-                      "and if you want to see instructions again write down : inst\n" +
-                      "Attention:\n" +
-                      "Username, IdName and password must only contain 0-9,a-z and A-Z characters, and at least 6 characters\n" +
-                      "Also care about capital letters when entering your name and family name";
+        instructions= """
+                INSTRUCTIONS :
+                for returning to signInPage enter                    : 00-sign
+                for entering username, write down                    : 01-your text
+                for entering password, write down                    : 02-your text
+                for entering name, write down                        : 03-your text
+                for entering familyname, write down                  : 04-your text
+                for entering IdName, write down                      : 05-your text
+                for entering secret info, write down                 : 06-your text
+                for entering birthday, write down                    : 07-day/month/year
+                for entering bio, write down                         : 08-your text
+                for creating account, write down                     : 09-account
+                for getting a report write down                      : 10-report
+                for entering email, write down                       : 11-your text
+                for entering phone number, write down                : 12-your text
+                and if you want to see instructions again write down : inst
+                Attention:
+                Username, IdName and password must only contain 0-9,a-z and A-Z characters, and at least 6 characters
+                Also care about capital letters when entering your name and family name""";
     }
 
     @Override

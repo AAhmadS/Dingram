@@ -1,2 +1,4 @@
-package org.openjfx;public class PersonalPageController {
+package org.openjfx;
+
+public class PersonalPageController {
 }
